@@ -8,5 +8,10 @@
 
 import Foundation
 
-print("Hello, World!")
+Logging.Key = "..." // From RemoteLogCat.com
+Logging.Log(Channel: "macOS", Log: "Hello Log!") {
+    print("Success: \($0)")
+}
+sleep(4)
+
 

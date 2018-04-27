@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1AA3A02A20938370008E1B1B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3A02920938370008E1B1B /* main.swift */; };
+		1AA3A0312093837B008E1B1B /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA3A0302093837B008E1B1B /* Logging.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		1AA3A02620938370008E1B1B /* RemoteLogCat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RemoteLogCat; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AA3A02920938370008E1B1B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		1AA3A0302093837B008E1B1B /* Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		1AA3A02820938370008E1B1B /* RemoteLogCat */ = {
 			isa = PBXGroup;
 			children = (
+				1AA3A0302093837B008E1B1B /* Logging.swift */,
 				1AA3A02920938370008E1B1B /* main.swift */,
 			);
 			path = RemoteLogCat;
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AA3A02A20938370008E1B1B /* main.swift in Sources */,
+				1AA3A0312093837B008E1B1B /* Logging.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
